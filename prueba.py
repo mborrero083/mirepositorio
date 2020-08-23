@@ -1,5 +1,5 @@
 import miprimermodulo
 def main():
-    miprimermodulo.Miprimermodulo(3,5)
-
+    salio=miprimermodulo.cuentalasa('En mi casa, en mi auto, en mi escuela, en mi trabajo')
+    print(salio)
 main()  

@@ -1,3 +1,3 @@
-def Miprimermodulo(a,b):
-    suma=a*b
-    print("la suma es ",suma)    
+def cuentalasa(texto):
+    cuenta=texto.count('a')
+    return cuenta
