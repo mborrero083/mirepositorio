@@ -1,5 +1,5 @@
 import miprimermodulo
 def main():
-    miprimermodulo.Miprimermodulo(2,5)
+    miprimermodulo.Miprimermodulo(3,5)
 
 main()  
