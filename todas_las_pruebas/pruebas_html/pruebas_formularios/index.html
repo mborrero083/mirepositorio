@@ -7,20 +7,26 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="">
-        <label for="nombre">
-            <samp>¿Cual es tu nombre?</samp>
-            <input type="text" id="nombre" placeholder="nombre"/>
-        </label>
-        <label for="inicio">
-            <samp>¿que dia comenzo?</samp>
-            <input type="date" id="inicio"/>
-        </label>
-        <label for="horario">
-            <samp>¿en que horario?</samp>
-            <input type="time" id="horario"/>
-        </label>
-    </form>
-    
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Cual es tu nombre</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correro">
+                <span>Cual es tu correro</span>
+                <input type="email" name="correro" id="correro" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>En que pais vives</span>
+                <input type="text"name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>Cual es tu codigo postal</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
 </body>
 </html>
